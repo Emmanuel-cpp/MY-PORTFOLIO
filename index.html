@@ -44,6 +44,7 @@
             top: 0;
             z-index: 1000;
             box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+            height: auto;
         }
         
         nav {
@@ -598,6 +599,35 @@
             
             .btn-outline {
                 margin-left: 0;
+            }
+        }
+
+            @media (max-width: 768px) {
+            nav {
+                padding: 40px 0; 
+            }
+            
+            .hero {
+                padding-top: 30px; 
+            }
+        }
+
+        @media (max-width: 480px) {
+            nav {
+                padding: 40px 0; 
+            }
+            
+            .logo {
+                font-size: 1.5rem;
+            }
+            
+            .hero {
+                padding-top: 60px;
+            }
+            
+            .hero h1 {
+                font-size: 2rem;
+                line-height: 1.3;
             }
         }
     </style>
