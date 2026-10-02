@@ -150,3 +150,8 @@ html,body{overflow-x:hidden;max-width:100%}
 .card,.contact strong,.footer,.herotext{overflow-wrap:anywhere}
 .nav-in{flex-wrap:wrap}
 
+/* hero tagline: white and smaller */
+.hero h1 .sub{color:#fff;font-size:1.15rem;font-weight:500;margin-top:10px}
+@media(max-width:760px){
+  .hero h1 .sub{font-size:.9rem;margin-top:8px}
+}
