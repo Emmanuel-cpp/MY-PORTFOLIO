@@ -1,6 +1,6 @@
 import { profile } from '../data.js'
 export default function Hero() {
-  const photo = `${import.meta.env.BASE_URL}image/emmanuel.jpg`
+  const photo = '/image/emmanuel.jpeg'
   return (
     <section className="hero" id="top" style={{ '--photo': `url(${photo})` }}>
       <div className="wrap">
