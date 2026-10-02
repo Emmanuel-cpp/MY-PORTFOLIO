@@ -4,7 +4,7 @@ export default function Projects() {
   return (
     <section id="projects">
       <div className="wrap">
-        <h2 className="reveal">Projects That Deliver</h2>
+        <h2 className="reveal">Why work with us</h2>
         <div className="grid two">
           {projects.map((p, i) => (
             <article className="card project reveal" key={p.title} style={{ '--c': p.color, '--d': `${(i % 2) * 90}ms` }}>
