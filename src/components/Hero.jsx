@@ -1,6 +1,6 @@
 import { profile } from '../data.js'
 export default function Hero() {
-  const photo = '/image/emmanuel.jpeg'
+  const photo = '/image/emmanuel.jpg'
   return (
     <section className="hero" id="top" style={{ '--photo': `url(${photo})` }}>
       <div className="wrap">
